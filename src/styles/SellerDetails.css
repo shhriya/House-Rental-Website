@@ -1,0 +1,66 @@
+/* SellerDetails.css */
+
+.seller-container {
+  margin: 2% auto;
+  padding: 20px;
+  max-width: 90%;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4b9cd3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #3a85b2;
+}
+
+.house-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.house-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 0 1 calc(33.333% - 20px);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 300px;
+}
+
+.house-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.house-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.seller-container h3 {
+  margin-top: 20px;
+}
+
+.detailsContainer {
+  margin-bottom: 10%;
+}
+.goBack {
+  width: 150px;
+}
